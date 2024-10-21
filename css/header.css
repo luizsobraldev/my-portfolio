@@ -1,0 +1,90 @@
+header{
+  background-image: url(../assets/images/Background_Intro.png); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100vh;
+  width: 100%;
+}
+  
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 120px 163px 57px 163px;
+  width: 1040px;
+  margin-inline: auto;
+}
+
+.container .vector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro img{
+  width: 96px;
+  height: 96px;
+  border: 2px solid #E3646E;
+  padding: 4px;
+  border-radius: 999px;
+}
+
+
+.intro h3{
+  font: var(--subtitle);
+  color: var(--color-gray-500);
+  margin-block: 56px 8px;
+}
+
+.intro span{
+  color: var(--color-red);
+}
+
+.intro h1{
+  font: var(--title-lg);
+  color: var(--color-gray-600);
+}
+
+.intro p{
+  margin-top: 20px;
+  font: var(--text-sm-maven-pro);
+  color: var(--color-gray-400);
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 80px 94px;
+  gap: 16px;
+  
+}
+
+.links a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  gap: 8px;
+  background-color: var(--color-gray-300);
+  padding: 8px 16px;
+  border-radius: 999px;
+}
+
+.links img {
+  width: 24px;
+  height: 24px;
+}
+
+.links p{
+  font: var(--text-md-maven-pro);
+  color: var(--color-gray-500);
+}
+
+

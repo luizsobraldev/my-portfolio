@@ -24,3 +24,9 @@
   --text-md-maven-pro: 400 16px/140% var(--font-family-maven-pro);
   --text-sm-maven-pro: 400 14px/140% var(--font-family-maven-pro);
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
