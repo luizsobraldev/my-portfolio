@@ -28,11 +28,22 @@ header{
 }
 
 .intro img{
-  width: 96px;
-  height: 96px;
-  border: 2px solid #E3646E;
-  padding: 4px;
+  width: 130px;
+  height: 130px;
   border-radius: 999px;
+  animation: moveTop 3s infinite;
+}
+
+@keyframes moveTop {
+  0% {
+    transform: translateY(0);
+}
+  50% {
+    transform: translateY(-5px); /* Move para cima */
+} 
+  100% {
+    transform: translateY(0); /* Retorna para a posição original */
+}
 }
 
 
@@ -75,6 +86,8 @@ header{
   background-color: var(--color-gray-300);
   padding: 8px 16px;
   border-radius: 999px;
+  animation: moveTop 3s infinite;
+  cursor: pointer;
 }
 
 .links img {
