@@ -3,8 +3,9 @@ header{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  padding-top: 90px;
 }
   
 .container{
@@ -66,6 +67,7 @@ header{
   margin-top: 20px;
   font: var(--text-sm-maven-pro);
   color: var(--color-gray-400);
+  text-align: center;
 }
 
 .links{
