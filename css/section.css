@@ -62,3 +62,33 @@
   color: var(--color-gray-500);
   font: var(--text-sm-maven-pro);
 }
+
+.services{
+  background-color: var(--color-gray-100);
+  padding: 88px 120px 120px 120px;
+}
+
+.negocios{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  
+}
+
+article{
+  border: 2px solid var(--color-gray-200);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+article h4{
+  color: var(--color-gray-600);
+  font: var(--title-sm);
+  margin-block: 20px 8px;
+}
+
+article p{
+  font: var(--text-sm-maven-pro);
+  color: var(--color-gray-500);
+}
