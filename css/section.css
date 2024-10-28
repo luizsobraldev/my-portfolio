@@ -38,7 +38,7 @@
   width: 330px;
   height: 280px;
   text-decoration: none;
-  transition: transform 0.3s ease, border 0.3s ease;
+  transition: transform 0.5s ease, border 0.3s ease;
 }
 
 .card:hover{
@@ -73,22 +73,101 @@
   align-items: center;
   justify-content: center;
   gap: 24px;
-  
 }
 
 article{
   border: 2px solid var(--color-gray-200);
   padding: 20px;
   border-radius: 12px;
+  transition: transform 0.4s ease, border 0.3s ease;
+}
+
+article:hover{
+  border: 1.5px solid var(--color-gray-400);
+  transform: scale(1.03);
 }
 
 article h4{
   color: var(--color-gray-600);
   font: var(--title-sm);
   margin-block: 20px 8px;
+  user-select: none;
 }
 
 article p{
   font: var(--text-sm-maven-pro);
   color: var(--color-gray-500);
+  user-select: none;
+}
+
+.contacts{
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 128px 120px 200px 120px;
+}
+
+.social-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-info h4{
+  color: var(--color-purple);
+  font: var(--subtitle);
+}
+
+.social-info h3{
+  color: var(--color-gray-600);
+  font: var(--title-md);
+  margin-block: 8px 8px;
+}
+
+.social-info p{
+  font: var(--text-md-maven-pro);
+  color: var(--color-gray-500);
+  margin-bottom: 48px;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media a{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid var(--color-gray-300);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 400px;
+  gap: 12px;
+  text-decoration: none;
+  background-color: var(--color-gray-300);
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.social-media a:hover{
+  border: 1.5px solid var(--Main-Blue, #3996DB);
+}
+
+.social-media a .arrow {
+  margin-left: auto;
+}
+
+.social-media a p{
+  font: var(--text-md-maven-pro);
+  color: var(--color-gray-500);
+}
+
+.social-media a:nth-child(4){
+  margin-bottom: 0;
 }
