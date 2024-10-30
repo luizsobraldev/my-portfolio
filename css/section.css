@@ -168,6 +168,14 @@ article p{
   color: var(--color-gray-500);
 }
 
-.social-media a:nth-child(4){
+.social-media a:nth-child(5){
   margin-bottom: 0;
 }
+
+.social-media a:nth-child(5) img:nth-child(1){
+  height: 26px;
+  width: 26px;
+  color: var(--color-gray-100);
+}
+
+
