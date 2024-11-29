@@ -89,6 +89,7 @@ article{
   border: 2px solid var(--color-gray-200);
   padding: 20px;
   border-radius: 12px;
+  /* width: 200px; */
   transition: transform 0.4s ease, border 0.3s ease;
 }
 
